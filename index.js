@@ -29,8 +29,8 @@ function exerciseDog(dogName, dogBreed){
     return new_array;
 }
 
-routine.map(action => new_array.push(action(dogName, dogBreed)));
+// routine.map(action => new_array.push(action(dogName, dogBreed)));
 
-routine.map do |action|
-new_array << action(dogName, dogBreed)
-end
+// routine.map do |action|
+// new_array << action(dogName, dogBreed)
+// end
